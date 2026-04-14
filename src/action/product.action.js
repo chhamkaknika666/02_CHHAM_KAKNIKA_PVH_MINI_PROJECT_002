@@ -13,7 +13,6 @@ const getToken = async () => {
 };
 
 
-
 export async function getAllProductsAction() {
   try {
     const token = await getToken();

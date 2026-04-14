@@ -2,7 +2,6 @@
 
 import { signIn } from "next-auth/react"
 
-
 const signInAction = async (data) => {
   const result = await signIn("credentials", {
     email: data.email,
